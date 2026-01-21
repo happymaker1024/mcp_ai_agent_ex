@@ -115,3 +115,8 @@ def comprehensive_stock_analysis(ticker: str) -> str:
         "연간 재무제표 요약": format_financial_summary(annual_financials),
         "분기별 재무제표 요약": format_financial_summary(quarterly_financials),
     }
+
+if __name__ == "__main__":
+    result = comprehensive_stock_analysis.run("AAPL")
+    import pprint
+    pprint.pprint(result)

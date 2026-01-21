@@ -14,4 +14,5 @@ pip install langchain langchain_openai
 # ai agent 실습 라이브러리
 ```
 pip install crewai crewai-tools
+pip install yfinance
 ```
